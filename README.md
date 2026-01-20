@@ -21,7 +21,7 @@ This project showcases the complete **data science and full-stack ML workflow** 
 - **Libraries:** NumPy, Pandas, Scikit-learn  
 - **Backend:** Flask, Flask-CORS  
 - **Frontend:** HTML, CSS, JavaScript (jQuery)  
-- **Tools:** VS Code, Postman  
+- **Tools:** VS Code, Postman, Pycharm  
 
 ---
 
