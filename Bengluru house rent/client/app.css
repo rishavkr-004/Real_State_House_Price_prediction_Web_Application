@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+body {
+    background: #f5f5f5;
+}
+
+.form {
+    max-width: 270px;
+    font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px auto;
+    padding: 16px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.area,
+.location {
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 76%;
+    border: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 15px;
+    height: 35px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.location {
+    height: 40px;
+}
+
+.switch-field {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.switch-field label {
+    background-color: #e4e4e4;
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
+    padding: 8px 16px;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-right: -1px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+}
+
+.switch-field input:checked + label {
+    background-color: #a5dc86;
+    box-shadow: none;
+}
+
+.submit {
+    background: #a5dc86;
+    width: 76%;
+    border: 0;
+    margin: 25px 0 10px;
+    font-size: 15px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
